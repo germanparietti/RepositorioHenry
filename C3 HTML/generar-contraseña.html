@@ -31,17 +31,39 @@
                 </ul>
             </div>
          </nav>
-      <main>
-         <header class="header-menu">
+      <main id="main">
+         <header class="header">
          <section>
                <div class="text">
-                  <p>Seguridad personalizada y efectiva</p>
-                  
-                  <h1>Henry <span>Security SAS</span></h1>
-            <h2>Protegemos tus datos, impulsamos tu confianza.</h2>
+                  <p>Asistente de seguridad</p>
                </div>
-               <div class="img-header">
-                  <img id="img-header"/>
+               <div class="text-box">
+                  <h1>Generador de contraseñas para usuarios:</h1>
+               </div>
+               <div>
+                  <form>
+                     <ul>
+                        <li>
+                           <label for="cantidad-caracteres">Cantidad de caracteres deseados:</label>
+                           <input type="number" id="caracteres" name="caracteres" required>
+                        </li>
+                        <li>
+                           <label for="caracteres-especiales">¿Incluir caracteres especiales?</label>
+                           <input type="text" id="caracteres-especiales" name="caracteres-especiales" required>
+                        </li>
+                        <li>
+                           <label for="caracteres-numericos">¿Incluir caracteres numericos?</label>
+                           <input type="number" id="caracteres-numericos" name="caracteres-numericos" required>
+                        </li>
+                        <li>
+                           <label for="caracteres-mayusculas">¿Incluir caracteres numericos?</label>
+                           <input type="text" id="caracteres-mayusculas" name="caracteres-mayusculas" required>
+                        </li>
+                        <li>
+                           <button type="submit">Generar contraseña</button>
+                        </li>
+                     </ul>
+                  </form>
                   </div>
          </section>
                   </header>
